@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    width: 40px;
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+}
+#logo a{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 100;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    background-color: #2e1a1d;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+
+}
+nav li{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 3.9%;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+nav a:hover{
+    border-bottom: 1px solid;
+}
+.active{
+    border-bottom: 1px solid;
+}
+#content{
+    overflow: auto;
+    height: 100%;
+}
+.column1, .column2, .column3 {
+    width: 32.9%;
+    float: left;
+    margin: 5px;
+    text-align: justify;
+}
+#feature{ 
+    height: 600px;
+    width: 100%;
+    background: url('../images/coffeeBanner.jpg') no-repeat center;
+}
+#feature, .article {
+    align-items: center;
+    
+    margin-bottom: 1em;
+    margin-left: 0;
+    background-color: #fff;
+}
+#footer{
+    background-color: #632e35;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.beans-stages{
+    width: 300px;
+    float: left;
+
+}
